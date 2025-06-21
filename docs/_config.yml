@@ -1,101 +1,253 @@
-# 🎮 Metaphor: ReFantazio Offline Setup Assistant Documentation
+# Jekyll Configuration for Metaphor: ReFantazio Offline Setup Assistant
+# Optimized for GitHub Pages and SEO
 
-# Site settings
+# Site Settings
 title: "Metaphor: ReFantazio Offline Setup Assistant"
-description: "Ultimate offline setup and configuration assistant for Metaphor: ReFantazio. Play without internet, optimize settings, and enjoy the full JRPG experience locally."
+email: community@metaphor-offline.com
+description: >-
+  The ultimate offline configuration tool for Metaphor: ReFantazio. 
+  Optimize graphics, configure controllers, and enhance your JRPG experience 
+  with Atlus and Persona Team's latest masterpiece. No internet required!
+
+# SEO and Social Media
+tagline: "Configure, Optimize, and Play Offline"
+keywords: 
+  - metaphor refantazio offline
+  - atlus jrpg configuration
+  - persona team gaming tool
+  - offline game setup
+  - controller configuration
+  - gaming optimization
+  - jrpg setup assistant
+
+# URLs
 baseurl: "/metaphor-refantazio-offline-setup-assistant"
 url: "https://metaphor-refantazio-offline.github.io"
-
-# Repository info
 repository: "Metaphor-ReFantazio-Offline/metaphor-refantazio-offline-setup-assistant"
-github_username: "Metaphor-ReFantazio-Offline"
 
-# SEO settings
-lang: en_US
-author: "Metaphor: ReFantazio Offline Community"
+# Social Media
 twitter:
-  username: MetaphorOffline
+  username: metaphor_offline
   card: summary_large_image
-logo: "/assets/images/logo.png"
+
 social:
-  name: "Metaphor: ReFantazio Offline Community"
+  name: Metaphor ReFantazio Offline Community
   links:
-    - "https://twitter.com/MetaphorOffline"
-    - "https://github.com/Metaphor-ReFantazio-Offline"
-    - "https://discord.gg/metaphor-refantazio-offline"
+    - https://twitter.com/metaphor_offline
+    - https://github.com/Metaphor-ReFantazio-Offline
+    - https://discord.gg/metaphor-refantazio
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
+# GitHub Integration
+github:
+  repository_url: "https://github.com/Metaphor-ReFantazio-Offline/metaphor-refantazio-offline-setup-assistant"
+  downloads_url: "https://github.com/Metaphor-ReFantazio-Offline/metaphor-refantazio-offline-setup-assistant/releases"
+  issues_url: "https://github.com/Metaphor-ReFantazio-Offline/metaphor-refantazio-offline-setup-assistant/issues"
+
+# Build Settings
 theme: minima
-
-# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-github-metadata
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-paginate
 
-# SEO keywords
-keywords: 
-  - "metaphor refantazio offline"
-  - "atlus jrpg offline tool"
-  - "metaphor refantazio setup assistant"
-  - "offline jrpg launcher"
-  - "persona team game offline"
-  - "metaphor refantazio no internet"
-  - "jrpg offline mode"
-  - "atlus game configuration"
-  - "metaphor controller setup"
-  - "offline rpg tool"
-  - "fantasy jrpg assistant"
+# SEO Plugin Configuration
+lang: en_US
+logo: /assets/images/logo.png
+image: /assets/images/social-preview.png
+
+# Google Analytics (if applicable)
+# google_analytics: G-XXXXXXXXXX
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+
+# Markdown Processing
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 # Navigation
-header_pages:
-  - setup.md
-  - quickstart.md
-  - troubleshooting.md
-  - faq.md
-  - community.md
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Download"
+    url: "https://metaphor-refantazio-offline.github.io/.github"
+  - title: "Documentation"
+    url: "/docs/"
+  - title: "Support"
+    url: "/support/"
+  - title: "Community"
+    url: "https://discord.gg/metaphor-refantazio"
 
-# Gaming-specific configuration
-gaming:
-  platforms:
-    - name: "Steam"
-      icon: "steam"
-      supported: true
-    - name: "Epic Games Store"
-      icon: "epic"
-      supported: true
-    - name: "Microsoft Store"
-      icon: "microsoft"
-      supported: true
-    - name: "GOG"
-      icon: "gog"
-      supported: true
-  
-  controllers:
-    - name: "Xbox Controllers"
-      compatibility: "Full"
-      features: ["Vibration", "All Buttons", "Wireless"]
-    - name: "PlayStation Controllers"
-      compatibility: "Full"
-      features: ["Vibration", "Adaptive Triggers", "Wireless"]
-    - name: "Nintendo Controllers"
-      compatibility: "Full"
-      features: ["Pro Controller", "Joy-Cons", "Wireless"]
+# Footer Links
+footer_links:
+  - title: "GitHub"
+    url: "https://github.com/Metaphor-ReFantazio-Offline/metaphor-refantazio-offline-setup-assistant"
+    icon: "fab fa-github"
+  - title: "Discord"
+    url: "https://discord.gg/metaphor-refantazio"
+    icon: "fab fa-discord"
+  - title: "Twitter"
+    url: "https://twitter.com/metaphor_offline"
+    icon: "fab fa-twitter"
 
-# Google Analytics
-google_analytics: UA-XXXXXXXXX-X
+# Minima Theme Configuration
+minima:
+  skin: dark
+  social_links:
+    twitter: metaphor_offline
+    github: Metaphor-ReFantazio-Offline
+    rss: rss
 
 # Exclude from processing
 exclude:
-  - .internal/
-  - vendor/
-  - .bundle/
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
-  - node_modules/ 
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .internal/
+  - "*.md"
+  - README.md
+  - LICENSE
+  - .gitignore
+  - .github/
+
+# Include in processing
+include:
+  - _pages
+  - _posts
+  - _guides
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Metaphor Community"
+      show_date: true
+      show_author: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      show_date: false
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "guide"
+      show_date: true
+      show_toc: true
+
+# Custom Variables
+project:
+  name: "Metaphor: ReFantazio Offline Setup Assistant"
+  version: "2.1.0"
+  license: "MIT"
+  author: "Metaphor ReFantazio Offline Community"
+  
+gaming:
+  supported_platforms:
+    - "Windows 10/11"
+    - "macOS 10.15+"
+    - "Linux Ubuntu 18.04+"
+  supported_controllers:
+    - "Xbox One/Series X|S"
+    - "PlayStation 4/5"
+    - "Nintendo Pro Controller"
+    - "Generic USB Controllers"
+  game_platforms:
+    - "Steam"
+    - "Epic Games Store"
+    - "Microsoft Store"
+
+# Performance and Optimization
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# Liquid Configuration
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
+# Sass/SCSS Configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Plugin Configuration
+feed:
+  posts_limit: 20
+  excerpt_only: true
+
+# Timezone
+timezone: UTC
+
+# Encoding
+encoding: utf-8
+
+# Incremental Build
+incremental: false
+
+# Live Reload
+livereload: true
+
+# Safe Mode
+safe: false
+
+# LSI (Latent Semantic Indexing)
+lsi: false
+
+# Permalink Structure
+permalink: /:categories/:title/
+
+# Excerpt Separator
+excerpt_separator: "<!--more-->"
+
+# Future Posts
+future: false
+
+# Unpublished Posts
+unpublished: false
+
+# Limit Posts
+limit_posts: 0
+
+# Whitelist Plugins
+whitelist:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag 

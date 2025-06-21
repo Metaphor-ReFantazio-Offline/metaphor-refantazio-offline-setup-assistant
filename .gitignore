@@ -1,51 +1,109 @@
-# 🔐 Credentials and Secrets
+# Metaphor: ReFantazio Offline Setup Assistant - .gitignore
+
+# ================================================
+# System and Configuration Files
+# ================================================
+
+# Internal project files (NEVER COMMIT)
 .internal/
-*.credentials*
-.env
-.env.*
-config.secret*
-auth.json
-tokens.txt
+UNIVERSAL_SEO_TOOLKIT.md
+*_CREDENTIALS.md
+*_PROMPT.md
+*_TEMPLATE.md
+*_SETUP.md
 
-# 🛠️ Build outputs
-build/
-dist/
-out/
-bin/
-obj/
-target/
-release/
-debug/
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
 
-# 📦 Package managers
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-yarn.lock
-.pnpm-debug.log*
-.pnpm-store/
+# ================================================
+# Development Environment
+# ================================================
 
-# 🐍 Python
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-*
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# Temporary Files
+*.tmp
+*.temp
+*.log
+*.pid
+*.lock
+*.cache
+
+# ================================================
+# Programming Languages
+# ================================================
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.env
+.venv
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
-pip-log.txt
-pip-delete-this-directory.txt
 
-# ☕ Java
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.pnp.*
+
+# JavaScript/TypeScript
+*.tsbuildinfo
+.nyc_output
+.grunt
+bower_components
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# Java
 *.class
-*.log
-*.ctxt
-.mtj.tmp/
 *.jar
 *.war
 *.nar
@@ -53,22 +111,56 @@ pip-delete-this-directory.txt
 *.zip
 *.tar.gz
 *.rar
+target/
+.mvn/wrapper/maven-wrapper.properties
 
-# 🔷 C++/C
-*.exe
+# C/C++
+*.o
 *.obj
+*.exe
 *.dll
 *.so
 *.dylib
 *.a
 *.lib
-*.pdb
-*.idb
-*.ilk
-*.map
-*.exp
+*.out
+*.app
 
-# 🎮 Game engines
+# C#/.NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+*.pdb
+*.dll.config
+*.exe.config
+
+# Rust
+target/
+Cargo.lock
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+vendor/
+
+# ================================================
+# Game Development
+# ================================================
+
 # Unity
 [Ll]ibrary/
 [Tt]emp/
@@ -76,165 +168,207 @@ pip-delete-this-directory.txt
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Mm]emoryCaptures/
-Assets/AssetStoreTools*
-*.sln
-*.csproj
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+[Aa]ssets/AssetStoreTools*
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.tmp
+*.vrpathmap
 
 # Unreal Engine
 Binaries/
+Build/
 DerivedDataCache/
 Intermediate/
 Saved/
+*.TargetRules
+*.ModuleRules
+*.uplugin
+*.uproject
 *.opensdf
-*.sdf
-*.VC.db
-*.VC.opendb
 
-# 🖥️ Operating Systems
-# Windows
-Thumbs.db
-Thumbs.db:encryptable
-ehthumbs.db
-ehthumbs_vista.db
-*.stackdump
-[Dd]esktop.ini
-$RECYCLE.BIN/
-*.cab
+# Godot
+.import/
+export.cfg
+export_presets.cfg
+.mono/
+data_*/
+
+# Game Engine Builds
+*.app
+*.dmg
+*.pkg
+*.deb
+*.rpm
 *.msi
-*.msix
-*.msm
-*.msp
-*.lnk
+*.apk
+*.ipa
 
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# ================================================
+# Configuration and Sensitive Data
+# ================================================
 
-# Linux
-*~
-.fuse_hidden*
-.directory
-.Trash-*
-.nfs*
-
-# 💻 IDEs and editors  
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.project
-.metadata
-*.iml
-*.ipr
-*.iws
-.classpath
-.settings/
-.loadpath
-.externalToolBuilders/
-*.launch
-.cproject
-.autotools
-.factorypath
-.buildpath
-.target
-.tern-project
-.texlipse
-.springBeans
-.recommenders/
-.apt_generated/
-.cache-main
-.scala_dependencies
-.worksheet
-
-# 📊 Logs and databases
-*.log
-*.sql
-*.sqlite
-*.sqlite3
-*.db
-logs/
-log/
-
-# 🔧 Tools and temp files
-*.tmp
-*.temp
-*.cache
-*.backup
-*.bak
-*.swp
-*.swo
-*~
-
-# 📈 Analytics and tracking
-.nyc_output/
-coverage/
-*.lcov
-.coverage
-.pytest_cache/
-htmlcov/
-
-# 🚀 Deployment
+# API Keys and Secrets
 *.key
 *.pem
 *.p12
 *.pfx
-.serverless/
-.env.production
+secrets.json
+config.json
+settings.json
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# 📱 Mobile
-# React Native
-ios/build/
-android/app/build/
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.cer
-DerivedData/
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
+# Game Configuration
+game_config.ini
+user_settings.dat
+save_data/
+screenshots/
+replays/
+mods/
 
-# 🎨 Graphics and media temp files
-*.psd~
-*.ai~
-*.indd~
-Thumbs.db
-.picasa.ini
+# ================================================
+# Build and Distribution
+# ================================================
 
-# 🌐 Web
+# Distribution Files
+dist/
+build/
+out/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+releases/
+artifacts/
+
+# Package Managers
+package-lock.json
+yarn.lock
+Pipfile.lock
+composer.lock
+Gemfile.lock
+
+# ================================================
+# Documentation and Media
+# ================================================
+
+# Generated Documentation
+docs/_site/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+_site/
 .sass-cache/
-.connect.lock
-.typings/
-.next/
-.nuxt/
-.vuepress/dist/
-.serverless/
+.jekyll-cache/
+.jekyll-metadata
 
-# 📚 Documentation build
-docs/_build/
-docs/build/
-site/ 
+# Large Media Files (use Git LFS instead)
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.flv
+*.wmv
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# ================================================
+# Testing and Quality Assurance
+# ================================================
+
+# Test Results
+coverage/
+*.lcov
+.nyc_output/
+junit.xml
+test-results/
+test-report/
+allure-results/
+
+# Quality Tools
+.sonar/
+.scannerwork/
+.eslintcache
+.stylelintcache
+
+# ================================================
+# Deployment and Infrastructure
+# ================================================
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Kubernetes
+*.kubeconfig
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# ================================================
+# Backup and Recovery
+# ================================================
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*.orig
+*~
+.#*
+#*#
+
+# Recovery Files
+.recover
+*.recover
+
+# ================================================
+# Custom Project Exclusions
+# ================================================
+
+# Metaphor Game Files (Don't commit game files)
+game_files/
+installation/
+metaphor_data/
+game_cache/
+
+# User Configurations
+user_configs/
+personal_settings/
+custom_presets/
+
+# Runtime Data
+runtime/
+temp_files/
+crash_dumps/
+performance_logs/
+
+# Archive and Compressed Files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# ================================================
+# End of .gitignore
+# ================================================ 

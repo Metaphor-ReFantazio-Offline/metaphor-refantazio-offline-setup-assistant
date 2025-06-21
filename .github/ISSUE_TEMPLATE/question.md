@@ -1,110 +1,177 @@
 ---
 name: ❓ Question
-about: Ask a question about using the setup assistant
+about: Ask a question about the Metaphor: ReFantazio Offline Setup Assistant
 title: '[QUESTION] '
-labels: 'question'
+labels: ['question', 'needs-answer']
 assignees: ''
 ---
 
-# ❓ Question
+## ❓ Your Question
 
-## 🎯 Your Question
 **What would you like to know?**
 
-## 🔍 Context
-**What are you trying to accomplish?**
+<!-- Please be as specific as possible. The more details you provide, the better we can help you! -->
 
-## 🛠️ What You've Tried
-**Have you already tried anything? If so, what?**
+## 📂 Category
 
-## 🖥️ System Information
-**Please provide basic system info (if relevant):**
-- Operating System: [e.g. Windows 11, macOS 13.0, Ubuntu 22.04]
-- Setup Assistant Version: [e.g. v1.0.0]
-- Game Platform: [e.g. Steam, Epic Games Store]
+**What category does your question fall into?**
 
-## 🎮 Gaming Setup
-**If your question is about gaming configuration:**
-- Graphics card: [e.g. NVIDIA RTX 3070]
-- Controller: [e.g. Xbox Series X controller]
-- Monitor: [e.g. 1440p 144Hz]
+- [ ] **Installation & Setup** - Getting the application installed and running
+- [ ] **Configuration** - Setting up graphics, audio, or controls
+- [ ] **Game Integration** - How the assistant works with Metaphor: ReFantazio
+- [ ] **Troubleshooting** - Something isn't working as expected
+- [ ] **Features & Functionality** - How specific features work
+- [ ] **Performance** - Optimization and performance questions
+- [ ] **Compatibility** - Platform, hardware, or software compatibility
+- [ ] **Development** - Contributing code or development questions
+- [ ] **Documentation** - Help understanding guides or documentation
+- [ ] **Other** - General questions not covered above
 
-## 📚 Documentation Checked
-**Have you checked the documentation?**
-- [ ] README.md
-- [ ] [Troubleshooting Guide](https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/troubleshooting)
-- [ ] [FAQ](https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/faq)
-- [ ] [Setup Guide](https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/setup)
+## 🖥️ Your Setup
 
-## 💬 Community Search
-**Have you searched for similar questions?**
-- [ ] GitHub Issues
-- [ ] GitHub Discussions
-- [ ] Discord server
-- [ ] Reddit community
+**Please provide your system information (if relevant to your question):**
 
-## 🔍 Question Type
-**What kind of help do you need?**
-- [ ] 🛠️ Installation/Setup
-- [ ] ⚙️ Configuration
-- [ ] 🎮 Gaming performance
-- [ ] 🕹️ Controller setup
-- [ ] 🎵 Audio configuration
-- [ ] 🖥️ Display settings
-- [ ] 🐛 Troubleshooting
-- [ ] 💡 Feature explanation
-- [ ] 🔧 Advanced usage
-- [ ] 📱 Platform-specific
+### System Details
+- **Operating System**: [e.g., Windows 11, macOS Ventura, Ubuntu 22.04]
+- **Application Version**: [e.g., v2.1.0]
+- **Metaphor: ReFantazio Platform**: [e.g., Steam, Epic Games Store]
 
-## 📸 Screenshots
-**If applicable, add screenshots to help explain your question:**
+### Hardware (if relevant)
+- **CPU**: [e.g., Intel i5-12400, AMD Ryzen 5 5600X]
+- **GPU**: [e.g., NVIDIA RTX 3060, AMD RX 6600]
+- **RAM**: [e.g., 16GB]
+- **Controllers**: [e.g., Xbox controller, PS5 controller]
 
-## 🚨 Urgency Level
-**How urgent is this question?**
-- [ ] 🔴 Urgent - Blocking me from using the tool
-- [ ] 🟠 High - Significantly impacting my experience  
-- [ ] 🟡 Medium - Would like to know soon
-- [ ] 🟢 Low - Just curious
+## 🎯 What You've Tried
 
-## 🎯 Expected Outcome
+**Have you already tried to find the answer?**
+
+- [ ] Checked the [README](../README.md)
+- [ ] Looked through the [documentation](../docs/)
+- [ ] Searched existing [issues and questions](../issues)
+- [ ] Asked in our [Discord community](https://discord.gg/metaphor-refantazio)
+- [ ] Googled the problem
+- [ ] Tried different configuration settings
+
+**If yes, please describe what you found and what didn't work:**
+
+<!-- Example: I found the configuration guide but I'm still confused about the graphics preset options -->
+
+## 📸 Screenshots or Examples
+
+**If applicable, add screenshots, configuration files, or examples to help explain your question:**
+
+<!-- You can drag and drop images here -->
+
+## 🔍 Specific Details
+
+### For Installation Questions
+- **Installation Method**: [e.g., Direct download, Package manager]
+- **Installation Directory**: [e.g., Default, Custom path]
+- **Error Messages**: [Any error messages you encountered]
+
+### For Configuration Questions
+- **Current Settings**: [What settings are you trying to configure?]
+- **Desired Outcome**: [What do you want to achieve?]
+- **Current Behavior**: [What's happening now?]
+
+### For Performance Questions
+- **Performance Issues**: [e.g., Low FPS, High CPU usage, Crashes]
+- **Target Performance**: [e.g., 60 FPS at 1080p, Stable 30 FPS]
+- **Current Performance**: [e.g., 45 FPS with drops, Inconsistent performance]
+
+### For Compatibility Questions
+- **Specific Hardware/Software**: [What are you trying to use with the assistant?]
+- **Compatibility Issues**: [What's not working as expected?]
+- **Expected Behavior**: [How should it work?]
+
+## 🎮 Gaming Context
+
+**Additional gaming-specific context (if relevant):**
+
+### Game Settings
+- **Current Game Version**: [e.g., 1.0.0, Latest patch]
+- **Game Language**: [e.g., English, Japanese]
+- **Play Style**: [e.g., Casual, Completionist, Speedrunner]
+
+### Gaming Session
+- **Typical Session Length**: [e.g., 1-2 hours, 4+ hours]
+- **Gaming Hardware**: [e.g., Gaming laptop, Desktop PC, Steam Deck]
+- **Other Gaming Software**: [e.g., Steam, Discord, OBS, MSI Afterburner]
+
+## 🕐 Urgency
+
+**How urgent is getting an answer to this question?**
+
+- [ ] **Critical** - I can't use the application at all
+- [ ] **High** - This is blocking important functionality
+- [ ] **Medium** - I can work around it but would like to know
+- [ ] **Low** - Just curious, no rush
+
+## 💡 Context & Background
+
+**Any additional context that might help us answer your question:**
+
+### What You're Trying to Achieve
+<!-- Example: I want to set up the best possible graphics settings for my RTX 4070 while maintaining 60fps -->
+
+### Why This Matters to You
+<!-- Example: I'm streaming the game and need consistent performance -->
+
+### Previous Experience
+- **First time using this application**: [Yes/No]
+- **Experience with similar tools**: [e.g., MSI Afterburner, Steam Big Picture]
+- **Gaming experience level**: [e.g., Beginner, Intermediate, Advanced]
+
+## 🤝 How You'd Like Help
+
 **What kind of answer would be most helpful?**
-- [ ] Step-by-step instructions
-- [ ] Link to documentation
-- [ ] Code example
-- [ ] Video tutorial
-- [ ] Explanation of how something works
-- [ ] Recommendation/best practice
 
-## 📞 Follow-up
-**Are you available for follow-up questions if needed?**
-- [ ] Yes, through GitHub
-- [ ] Yes, through Discord
-- [ ] Yes, through email
-- [ ] Prefer one-time answer
+- [ ] **Step-by-step guide** - Detailed instructions I can follow
+- [ ] **Quick answer** - Just tell me the solution
+- [ ] **Explanation** - Help me understand how it works
+- [ ] **Resources** - Point me to documentation or guides
+- [ ] **Troubleshooting** - Help me diagnose the problem
+- [ ] **Best practices** - Show me the recommended approach
 
----
+## 📝 Follow-up
 
-## 🤝 Community Guidelines
+**Are you available for follow-up questions if we need more information?**
 
-### 🎮 Gaming Questions
-- Be specific about your gaming setup
-- Include performance expectations
-- Mention any unique configurations
+- [ ] **Yes** - Feel free to ask for more details
+- [ ] **Limited** - I can provide some additional information
+- [ ] **No** - Please provide a complete answer if possible
 
-### 💬 Communication Tips
-- Use clear, descriptive titles
-- Provide enough detail for others to help
-- Be patient - volunteers answer questions
-- Consider that answers help future users too
+### Contact Preferences
+- [ ] **GitHub** - Respond in this issue
+- [ ] **Discord** - I'm active in the community server
+- [ ] **Email** - I'll get notifications via email
 
-### 🔍 Before Asking
-- Search existing issues and discussions
-- Check the documentation
-- Try basic troubleshooting steps
-- Join our Discord for real-time help
+## 🙏 Additional Notes
+
+**Anything else you'd like to add?**
+
+<!-- 
+This could include:
+- Related questions you might have
+- Things you've noticed that might be relevant
+- Suggestions for improving documentation
+- Thanks to community members who have helped
+-->
 
 ---
 
-**Thank you for being part of the Metaphor: ReFantazio Offline community! 🦋🎮**
+**Thanks for asking! 🎮 The community is here to help.**
 
-*Your questions help improve our documentation and make the tool better for everyone.* 
+*Questions help us improve our documentation and identify common pain points. Don't hesitate to ask - there are no silly questions!*
+
+## 📚 Quick Links
+
+**While you wait for an answer, you might find these resources helpful:**
+
+- 📖 [Getting Started Guide](../docs/getting-started.md)
+- 🔧 [Configuration Guide](../docs/configuration.md)
+- ❓ [FAQ](../docs/faq.md)
+- 🛠️ [Troubleshooting Guide](../docs/troubleshooting.md)
+- 💬 [Discord Community](https://discord.gg/metaphor-refantazio)
+- 🐦 [Twitter Updates](https://twitter.com/metaphor_offline) 

@@ -1,159 +1,211 @@
-# 🔐 Security Policy
+# Security Policy
 
 ## 🛡️ Supported Versions
 
-We actively maintain and provide security updates for the following versions:
+We actively support the following versions of Metaphor: ReFantazio Offline Setup Assistant:
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.x.x   | ✅ Fully Supported |
-| 0.9.x   | ⚠️ Limited Support |
-| < 0.9   | ❌ Not Supported   |
+| 2.1.x   | ✅ Yes             |
+| 2.0.x   | ✅ Yes             |
+| 1.9.x   | ⚠️ Limited support |
+| < 1.9   | ❌ No              |
 
 ## 🚨 Reporting a Vulnerability
 
-### 🎯 What to Report
-Please report security vulnerabilities if you discover:
-- Authentication bypass or privilege escalation
-- Code injection or remote code execution
-- Data exposure or privacy violations
-- Network security issues
-- Dependency vulnerabilities
+The security of our gaming community is important to us. If you discover a security vulnerability, please follow these steps:
 
-### 📧 How to Report
-**For security issues, please DO NOT create public GitHub issues.**
+### 📧 Contact Information
 
-Instead, please report security vulnerabilities to:
-- **Email**: security@metaphor-refantazio-offline.com
-- **Discord**: Direct message to @SecurityTeam
-- **PGP Key**: Available at `docs/security-pgp-key.txt`
+**Primary Contact**: security@metaphor-offline.com
+**GPG Key**: [Available here](https://metaphor-refantazio-offline.github.io/pgp-key.asc)
 
-### 📋 Report Requirements
-Please include:
-1. **Description**: Clear explanation of the vulnerability
-2. **Steps to Reproduce**: Detailed reproduction steps
-3. **Impact Assessment**: Potential security impact
-4. **Affected Versions**: Which versions are affected
-5. **Proof of Concept**: Code or screenshots if applicable
-6. **Suggested Fix**: If you have ideas for a solution
+### 🔍 What to Include
+
+When reporting a vulnerability, please include:
+
+- **Description**: Clear description of the vulnerability
+- **Impact**: Potential impact on users and the gaming experience
+- **Steps to Reproduce**: Detailed reproduction steps
+- **Proof of Concept**: Code or screenshots (if applicable)
+- **Environment**: OS, version, configuration details
+- **Severity Assessment**: Your assessment of severity level
 
 ### ⏱️ Response Timeline
-- **Initial Response**: Within 48 hours
-- **Vulnerability Assessment**: Within 1 week
-- **Fix Development**: Within 2-4 weeks (depending on severity)
-- **Public Disclosure**: After fix is released and tested
 
-## 🔒 Security Measures
+- **Acknowledgment**: Within 24 hours
+- **Initial Assessment**: Within 72 hours
+- **Regular Updates**: Every 7 days until resolution
+- **Resolution**: Varies by severity (see below)
 
-### 🛡️ Current Protections
-- **Code Reviews**: All code changes are reviewed
-- **Dependency Scanning**: Automated vulnerability checks
-- **Static Analysis**: Code security analysis
-- **Input Validation**: All user inputs are validated
-- **Secure Defaults**: Safe configuration by default
+### 🎯 Severity Levels
 
-### 🔍 Security Auditing
-- Regular security assessments
-- Dependency vulnerability monitoring
-- Community security feedback
-- Third-party security reviews
-
-## 📊 Vulnerability Severity
-
-We use the following severity levels:
-
-### 🔴 Critical (CVSS 9.0-10.0)
+#### 🔴 Critical (24-48 hours)
 - Remote code execution
-- Complete system compromise
-- Widespread impact
+- Unauthorized access to game files
+- User data exposure
+- System compromise
 
-### 🟠 High (CVSS 7.0-8.9)
+#### 🟠 High (3-7 days)
 - Privilege escalation
-- Significant data exposure
-- Major functionality bypass
+- Authentication bypass
+- Sensitive information disclosure
+- Denial of service
 
-### 🟡 Medium (CVSS 4.0-6.9)
-- Limited data exposure
-- Moderate impact vulnerabilities
-- Local privilege escalation
+#### 🟡 Medium (2-4 weeks)
+- Input validation issues
+- Information leakage
+- Configuration vulnerabilities
+- Limited DoS
 
-### 🟢 Low (CVSS 0.1-3.9)
+#### 🟢 Low (1-3 months)
 - Minor information disclosure
-- Limited impact issues
-- Configuration weaknesses
+- Low-impact configuration issues
+- Cosmetic security issues
 
-## 🎮 Gaming-Specific Security
+## 🔐 Security Best Practices
 
-### 🕹️ Game File Protection
-- No modification of original game files
-- Sandboxed configuration changes
-- Backup and restore functionality
-- Integrity verification
+### For Users
 
-### 🔐 User Data Privacy
-- No personal data collection
-- Local configuration storage
-- Optional telemetry (opt-in only)
-- Transparent data practices
+#### Download Safety
+- ✅ Always download from official sources
+- ✅ Verify checksums/signatures
+- ✅ Use antivirus software
+- ❌ Don't download from unofficial sites
 
-### 🌐 Network Security
-- Offline-first design
-- Minimal network requests
-- Secure update mechanism
-- Certificate validation
+#### Installation Security
+- ✅ Run with minimal required permissions
+- ✅ Keep software updated
+- ✅ Use official configuration files
+- ❌ Don't run as administrator unless necessary
 
-## 🛠️ Developer Security Guidelines
+#### Configuration Security
+- ✅ Use strong, unique passwords
+- ✅ Enable available security features
+- ✅ Regular backup of configurations
+- ❌ Don't share configuration files with sensitive data
 
-### 🔒 Secure Coding Practices
-- Input validation and sanitization
-- Proper error handling
-- Secure file operations
-- Memory safety considerations
+### For Developers
 
-### 📦 Dependency Management
-- Regular dependency updates
-- Vulnerability scanning
-- License compliance
-- Supply chain security
+#### Code Security
+- ✅ Input validation and sanitization
+- ✅ Secure coding practices
+- ✅ Regular dependency updates
+- ✅ Code review process
 
-### 🧪 Security Testing
-- Unit tests for security functions
-- Integration security testing
-- Penetration testing
-- Code review processes
+#### Build Security
+- ✅ Secure build pipeline
+- ✅ Signed releases
+- ✅ Vulnerability scanning
+- ✅ Secure storage of secrets
 
-## 🏆 Security Hall of Fame
+## 🏆 Responsible Disclosure
 
-We recognize and thank security researchers who responsibly disclose vulnerabilities:
+We believe in responsible disclosure and work with security researchers to protect our users. 
 
-### 🌟 Notable Contributors
-*Names will be added here with permission from reporters*
+### 🎁 Recognition Program
 
-### 🎖️ Recognition Policy
-- Public acknowledgment in release notes
-- Optional inclusion in security hall of fame
-- Coordinator role in our Discord community
-- Early access to new features
+While we don't offer monetary rewards, we recognize security researchers who help us improve:
 
-## 📞 Security Contact
+- **Hall of Fame**: Recognition on our security page
+- **Special Thanks**: Acknowledgment in release notes
+- **Community Status**: Special role in our Discord
+- **Early Access**: Beta access to new features
 
-### 👥 Security Team
-- **Lead Security**: security-lead@metaphor-refantazio-offline.com
-- **Secondary Contact**: security-backup@metaphor-refantazio-offline.com
-- **Discord**: @SecurityTeam
+### 📋 Disclosure Process
 
-### 🔑 PGP Keys
-Security team PGP keys are available at:
-- https://metaphor-refantazio-offline.github.io/security/pgp-keys/
-- `docs/security-pgp-keys.txt` in this repository
+1. **Report**: Submit vulnerability through secure channels
+2. **Validate**: We confirm and assess the issue
+3. **Fix**: Develop and test the fix
+4. **Coordinate**: Work with reporter on disclosure timing
+5. **Release**: Public disclosure after fix deployment
+6. **Recognition**: Credit reporter (if desired)
 
-## 📄 Additional Resources
+## 🛠️ Security Measures
 
-- **Privacy Policy**: [docs/privacy-policy.md](docs/privacy-policy.md)
-- **Terms of Service**: [docs/terms-of-service.md](docs/terms-of-service.md)
-- **Security Blog**: https://blog.metaphor-refantazio-offline.com/security/
-- **Security Updates**: https://github.com/Metaphor-ReFantazio-Offline/security-advisories
+### Current Protections
+
+#### Application Security
+- Input validation on all user inputs
+- Secure file handling and permissions
+- Sandboxed execution environment
+- Regular security audits
+
+#### Communication Security
+- HTTPS for all web communications
+- Certificate pinning where applicable
+- Secure update mechanisms
+- Encrypted configuration storage
+
+#### Build Security
+- Automated security scanning
+- Dependency vulnerability checks
+- Signed releases with verification
+- Secure CI/CD pipeline
+
+### Planned Improvements
+
+- Enhanced encryption for sensitive data
+- Additional sandboxing mechanisms
+- Improved audit logging
+- Multi-factor authentication support
+
+## 📚 Security Resources
+
+### Documentation
+- [Security Architecture](docs/security-architecture.md)
+- [Threat Model](docs/threat-model.md)
+- [Incident Response Plan](docs/incident-response.md)
+
+### Tools & References
+- [OWASP Gaming Security](https://owasp.org/www-project-top-10-for-gaming/)
+- [Common Vulnerabilities Database](https://cve.mitre.org/)
+- [Security Headers](https://securityheaders.com/)
+
+## 🚫 Out of Scope
+
+The following are typically **not** considered security vulnerabilities:
+
+### Expected Behavior
+- Features working as designed
+- Performance issues
+- UI/UX concerns
+- Compatibility problems
+
+### Third-Party Issues
+- Game-specific bugs or vulnerabilities
+- OS-level security issues
+- Hardware-related problems
+- Network configuration issues
+
+### Low-Impact Issues
+- Theoretical attacks without practical impact
+- Issues requiring physical access
+- Social engineering vectors
+- Cosmetic issues
+
+## 📞 Emergency Contact
+
+For **critical security issues** requiring immediate attention:
+
+- **Discord**: @security-team in our server
+- **Email**: emergency@metaphor-offline.com
+- **Phone**: Available upon request for verified researchers
+
+## 📄 Legal
+
+### Safe Harbor
+
+We will not pursue legal action against security researchers who:
+- Make good faith efforts to avoid privacy violations
+- Don't access, modify, or delete user data
+- Don't perform attacks against our infrastructure
+- Don't violate any applicable laws
+
+### Confidentiality
+
+All security reports are treated as confidential until public disclosure is agreed upon.
 
 ---
 
-**Remember**: Security is a community effort. Thank you for helping keep our project and users safe! 🛡️🎮 
+Thank you for helping keep the Metaphor: ReFantazio community safe! 🎮🛡️ 

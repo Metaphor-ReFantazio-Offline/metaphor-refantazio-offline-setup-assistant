@@ -1,150 +1,192 @@
-# 🤝 Contributor Covenant Code of Conduct
+# Code of Conduct
 
 ## 🎮 Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
-
-We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community focused on bringing the best offline gaming experience to players worldwide.
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers of the Metaphor: ReFantazio Offline Setup Assistant pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 ## 🌟 Our Standards
 
-### ✅ Examples of behavior that contributes to a positive environment:
+### ✅ Examples of behavior that contributes to creating a positive environment include:
 
-- **🤝 Respectful Communication**: Using welcoming and inclusive language
-- **🎯 Constructive Feedback**: Providing helpful and actionable suggestions
-- **🧠 Open Mindedness**: Being open to different viewpoints and experiences
-- **🔍 Focus on Learning**: Helping others learn and grow in the community
-- **🎮 Gaming Passion**: Sharing enthusiasm for gaming and technical discussions
-- **🛠️ Collaborative Spirit**: Working together to solve problems and improve the project
-- **🙏 Gratitude**: Showing appreciation for contributions and help received
-- **🌍 Inclusivity**: Welcoming newcomers and helping them get started
+#### In General
+- Using welcoming and inclusive language
+- Being respectful of differing viewpoints and experiences
+- Gracefully accepting constructive criticism
+- Focusing on what is best for the community
+- Showing empathy towards other community members
 
-### ❌ Examples of unacceptable behavior:
+#### In Gaming Context
+- Helping new players learn the tools and features
+- Sharing knowledge about game optimization and configuration
+- Respecting different gaming preferences and skill levels
+- Celebrating community achievements and contributions
+- Supporting accessibility and inclusive gaming
 
-- **💬 Harassment**: Offensive comments, trolling, or personal attacks
-- **🔞 Inappropriate Content**: Sexual language, imagery, or unwelcome advances
-- **📝 Doxxing**: Publishing private information without consent
-- **🎯 Disruption**: Deliberate intimidation, stalking, or following
-- **💼 Misconduct**: Inappropriate conduct in professional or community settings
-- **🚫 Discrimination**: Behavior that excludes or marginalizes groups of people
-- **⚖️ Legal Issues**: Encouraging piracy, illegal activities, or copyright infringement
-- **🎮 Gaming Toxicity**: Bringing toxic gaming behaviors into our community spaces
+#### In Development
+- Providing constructive feedback on code and features
+- Collaborating effectively on technical discussions
+- Documenting code and processes clearly
+- Testing contributions thoroughly before submission
+- Mentoring newcomers to game development and modding
 
-## 🎮 Gaming Community Specific Guidelines
+### ❌ Examples of unacceptable behavior by participants include:
 
-### 🕹️ Game Discussion Ethics
-- **Respect Copyright**: Don't share or encourage piracy of Metaphor: ReFantazio or other games
-- **Fair Use**: Only discuss tools and modifications that respect intellectual property
-- **Constructive Criticism**: Critique games and tools constructively, not destructively
-- **Help Others**: Share knowledge to help fellow gamers enjoy their experience
+#### Harassment and Discrimination
+- The use of sexualized language or imagery and unwelcome sexual attention or advances
+- Trolling, insulting/derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information without explicit permission
+- Discrimination based on any protected characteristics
 
-### 🛠️ Technical Discussions
-- **Accuracy**: Provide accurate technical information
-- **Safety**: Don't suggest modifications that could harm systems or data
-- **Accessibility**: Consider users with different technical skill levels
-- **Documentation**: Help improve guides and documentation for everyone
+#### Gaming-Specific Issues
+- Griefing or intentionally disrupting others' gaming experience
+- Sharing pirated content or encouraging illegal activities
+- Cheating, exploiting, or providing tools for unfair advantages
+- Gatekeeping or elitism toward less experienced players
+- Spoiling game content without proper warnings
 
-### 🌐 Online Interactions
-- **Platform Respect**: Follow platform-specific rules (Discord, GitHub, etc.)
-- **No Spamming**: Avoid excessive self-promotion or off-topic content
-- **Patience**: Remember that people have different time zones and schedules
-- **Quality**: Contribute meaningful content rather than noise
+#### Technical Misconduct
+- Submitting malicious code or contributions
+- Intentionally breaking functionality or introducing bugs
+- Spamming issues, pull requests, or discussions
+- Ignoring maintainer guidance and project standards
+- Reverse engineering or modifying game files inappropriately
 
-## 🛡️ Enforcement Responsibilities
+## 🛡️ Our Responsibilities
 
-Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
+Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
 
-Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
 
-## 🌍 Scope
+## 📏 Scope
 
-This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces. Examples of representing our community include using an official e-mail address, posting via an official social media account, or acting as an appointed representative at an online or offline event.
+This Code of Conduct applies within all project spaces, and also applies when an individual is representing the project or its community in public spaces. Examples of representing a project or community include:
 
-### 📍 Community Spaces Include:
-- **GitHub Repository**: Issues, Pull Requests, Discussions, Wiki
-- **Discord Server**: All channels and voice chats
-- **Social Media**: Official Twitter, YouTube, and other accounts
-- **Events**: Virtual meetups, conferences, and community gatherings
-- **Email**: Official project communications
+### Project Spaces
+- GitHub repository (issues, pull requests, discussions)
+- Official Discord server
+- Community forums and chat rooms
+- Documentation and wiki pages
+- Social media accounts
 
-## 📞 Reporting
+### Public Representation
+- Using an official project e-mail address
+- Posting via an official social media account
+- Acting as an appointed representative at online or offline events
+- Speaking about the project at gaming conventions or conferences
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the community leaders responsible for enforcement at:
+## 🚨 Enforcement
 
-### 🚨 Reporting Channels:
-- **Email**: conduct@metaphor-refantazio-offline.com
-- **Discord**: Direct message to @ModeratorTeam
-- **GitHub**: Use the "Report" feature on specific content
-- **Anonymous Form**: https://forms.gle/anonymous-conduct-report
+### Reporting
 
-### 📋 Report Information:
-Please include:
-- **What happened**: Clear description of the incident
-- **When**: Date and time of the incident
-- **Where**: Which platform/channel it occurred
-- **Who**: People involved (if comfortable sharing)
-- **Evidence**: Screenshots or links if available
-- **Impact**: How it affected you or the community
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at:
 
-All complaints will be reviewed and investigated promptly and fairly. All community leaders are obligated to respect the privacy and security of the reporter of any incident.
+- **Primary Email**: conduct@metaphor-offline.com
+- **Discord**: Direct message to @moderators
+- **Anonymous Form**: [Report Form](https://forms.gle/metaphor-conduct-report)
 
-## ⚖️ Enforcement Guidelines
+All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident.
 
-Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
+### Investigation Process
 
-### 1. 🟡 Correction
-**Community Impact**: Use of inappropriate language or other behavior deemed unprofessional or unwelcome in the community.
+1. **Receipt**: We acknowledge reports within 24 hours
+2. **Review**: Team reviews the incident thoroughly
+3. **Investigation**: We gather additional information if needed
+4. **Decision**: Team decides on appropriate action
+5. **Communication**: We inform all parties of the outcome
+6. **Follow-up**: Monitor situation to ensure resolution
 
-**Consequence**: A private, written warning from community leaders, providing clarity around the nature of the violation and an explanation of why the behavior was inappropriate. A public apology may be requested.
+### Enforcement Guidelines
 
-### 2. 🟠 Warning
-**Community Impact**: A violation through a single incident or series of actions.
+Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
-**Consequence**: A warning with consequences for continued behavior. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
+#### Level 1: Warning
+**Community Impact**: Minor violation or first offense
 
-### 3. 🔴 Temporary Ban
-**Community Impact**: A serious violation of community standards, including sustained inappropriate behavior.
+**Consequence**: 
+- Private written warning
+- Clarification of violation
+- Request for behavioral change
+- No further action if complied
 
-**Consequence**: A temporary ban from any sort of interaction or public communication with the community for a specified period of time. No public or private interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, is allowed during this period. Violating these terms may lead to a permanent ban.
+#### Level 2: Temporary Suspension
+**Community Impact**: Moderate violation or repeated minor violations
 
-### 4. ⚫ Permanent Ban
-**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior, harassment of an individual, or aggression toward or disparagement of classes of individuals.
+**Consequence**:
+- 1-4 week suspension from community spaces
+- No interaction with community members during suspension
+- Violation of suspension terms leads to permanent ban
 
-**Consequence**: A permanent ban from any sort of public interaction within the community.
+#### Level 3: Permanent Ban
+**Community Impact**: Serious violation, repeated offenses, or harmful behavior
 
-## 🔄 Appeals Process
+**Consequence**:
+- Permanent exclusion from all community spaces
+- No appeal process for 12 months
+- May be reported to relevant platforms/authorities if applicable
 
-If you believe you have been unfairly moderated, you can appeal by:
+## 🎯 Gaming Community Guidelines
 
-1. **Email**: appeals@metaphor-refantazio-offline.com
-2. **Provide**: Clear explanation of why you believe the action was unfair
-3. **Wait**: Allow up to 7 days for review
-4. **Accept**: Final decisions are made by the community leadership team
+### Respectful Gaming Discussion
+- Keep discussions constructive and on-topic
+- Respect different gaming preferences and skill levels
+- Use content warnings for spoilers or sensitive topics
+- Share knowledge and help others learn
 
-## 🎯 Community Goals
+### Technical Contributions
+- Follow coding standards and documentation guidelines
+- Test your contributions thoroughly
+- Be patient with code review feedback
+- Mentor newcomers to the codebase
 
-Our community exists to:
-- **🎮 Enhance Gaming**: Improve the offline gaming experience for Metaphor: ReFantazio
-- **🤝 Build Community**: Create a welcoming space for gamers and developers
-- **🛠️ Share Knowledge**: Help each other with technical challenges and solutions
-- **🌟 Celebrate Achievements**: Recognize contributions and milestones
-- **🔮 Inspire Innovation**: Encourage creative solutions and improvements
+### Community Events
+- Participate respectfully in community events
+- Follow event-specific rules and guidelines
+- Help create an inclusive environment for all participants
+- Report issues to moderators promptly
+
+## 🌍 Diversity and Inclusion
+
+We are committed to creating a diverse and inclusive community where everyone feels welcome to contribute to gaming and technology. We actively work to:
+
+- Remove barriers to participation
+- Provide mentorship and support for underrepresented groups
+- Create accessible tools and documentation
+- Celebrate diverse perspectives and contributions
+- Address systemic issues that prevent inclusion
 
 ## 📚 Resources
 
-### 🆘 Support Resources:
-- **Mental Health**: If you're struggling, please reach out to local mental health resources
-- **Gaming Addiction**: [Game Quitters](https://gamequitters.com/) and similar resources
-- **Technical Help**: Our [Discord support channels](https://discord.gg/metaphor-refantazio-offline)
+### Support Resources
+- [Mental Health Resources](docs/mental-health-resources.md)
+- [Accessibility Guidelines](docs/accessibility.md)
+- [Inclusive Language Guide](docs/inclusive-language.md)
 
-### 📖 Additional Reading:
-- **Contributor Guide**: [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Security Policy**: [SECURITY.md](SECURITY.md)
-- **License**: [LICENSE](LICENSE)
+### Educational Materials
+- [Gaming Ethics Guidelines](docs/gaming-ethics.md)
+- [Open Source Contribution Guide](docs/contributing-guide.md)
+- [Community Building Best Practices](docs/community-building.md)
+
+## 📞 Emergency Contacts
+
+For urgent matters requiring immediate attention:
+
+- **Discord**: @emergency-moderators
+- **Email**: emergency@metaphor-offline.com
+- **Crisis Hotlines**: [International List](docs/crisis-resources.md)
+
+## 📝 Updates and Changes
+
+This Code of Conduct may be updated periodically to address new challenges and improve our community standards. Changes will be:
+
+- Discussed with the community before implementation
+- Clearly communicated through all official channels
+- Applied fairly and consistently to all community members
+- Reviewed regularly for effectiveness and relevance
 
 ## 🙏 Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html.
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 2.1, available at https://www.contributor-covenant.org/version/2/1/code_of_conduct.html, with additional gaming-specific guidelines inspired by various gaming community standards.
 
 Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).
 
@@ -152,4 +194,4 @@ For answers to common questions about this code of conduct, see the FAQ at https
 
 ---
 
-**Remember**: We're all here because we love gaming and want to create something awesome together! 🎮✨ 
+Thank you for helping make the Metaphor: ReFantazio community welcoming and inclusive for everyone! 🎮✨ 
