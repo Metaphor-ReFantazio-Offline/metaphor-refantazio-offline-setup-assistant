@@ -1,0 +1,240 @@
+# 🔐 Credentials and Secrets
+.internal/
+*.credentials*
+.env
+.env.*
+config.secret*
+auth.json
+tokens.txt
+
+# 🛠️ Build outputs
+build/
+dist/
+out/
+bin/
+obj/
+target/
+release/
+debug/
+
+# 📦 Package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+.pnpm-store/
+
+# 🐍 Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ☕ Java
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# 🔷 C++/C
+*.exe
+*.obj
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.idb
+*.ilk
+*.map
+*.exp
+
+# 🎮 Game engines
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+Assets/AssetStoreTools*
+*.sln
+*.csproj
+
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# 🖥️ Operating Systems
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 💻 IDEs and editors  
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+*.iml
+*.ipr
+*.iws
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+*.launch
+.cproject
+.autotools
+.factorypath
+.buildpath
+.target
+.tern-project
+.texlipse
+.springBeans
+.recommenders/
+.apt_generated/
+.cache-main
+.scala_dependencies
+.worksheet
+
+# 📊 Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+logs/
+log/
+
+# 🔧 Tools and temp files
+*.tmp
+*.temp
+*.cache
+*.backup
+*.bak
+*.swp
+*.swo
+*~
+
+# 📈 Analytics and tracking
+.nyc_output/
+coverage/
+*.lcov
+.coverage
+.pytest_cache/
+htmlcov/
+
+# 🚀 Deployment
+*.key
+*.pem
+*.p12
+*.pfx
+.serverless/
+.env.production
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 📱 Mobile
+# React Native
+ios/build/
+android/app/build/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.cer
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# 🎨 Graphics and media temp files
+*.psd~
+*.ai~
+*.indd~
+Thumbs.db
+.picasa.ini
+
+# 🌐 Web
+.sass-cache/
+.connect.lock
+.typings/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+
+# 📚 Documentation build
+docs/_build/
+docs/build/
+site/ 

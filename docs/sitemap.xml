@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Setup Guide -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/setup</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Quick Start -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/quickstart</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Troubleshooting -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/troubleshooting</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- FAQ -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/faq</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Graphics Settings -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/graphics-settings</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Audio Settings -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/audio-settings</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Controller Setup -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/controller-setup</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Performance Optimization -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/performance</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Requirements -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/requirements</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Community -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/community</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Developer Guide -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/developer</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Advanced Configuration -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/advanced-config</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Modding Support -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/modding</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Best Practices -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/best-practices</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Performance Tuning -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/performance-tuning</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Multi-Platform Setup -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/multi-platform</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <!-- Community Configs -->
+  <url>
+    <loc>https://metaphor-refantazio-offline.github.io/metaphor-refantazio-offline-setup-assistant/community-configs</loc>
+    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset> 
